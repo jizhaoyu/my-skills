@@ -55,7 +55,40 @@ npx skills update          # 更新所有技能
 
 ---
 
-### 4. React Best Practices (`react-best-practices`)
+### 4. UI/UX Pro Max (`ui-ux-pro-max`)
+
+UI/UX 设计智能技能，包含全面的设计资源和指南。
+
+**特性：**
+- 50+ 种 UI 样式（glassmorphism、minimalism、brutalism、neumorphism 等）
+- 97 种配色方案（按产品类型分类）
+- 57 种字体配对（Google Fonts）
+- 99 条 UX 指南和最佳实践
+- 25 种图表类型推荐
+
+**支持的技术栈：**
+- HTML + Tailwind CSS（默认）
+- React / Next.js
+- Vue / Nuxt.js
+- Svelte
+- SwiftUI / React Native / Flutter
+- shadcn/ui
+
+**使用方式：**
+```bash
+# 生成设计系统
+python3 skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system
+
+# 按领域搜索
+python3 skills/ui-ux-pro-max/scripts/search.py "glassmorphism" --domain style
+
+# 获取技术栈指南
+python3 skills/ui-ux-pro-max/scripts/search.py "layout" --stack react
+```
+
+---
+
+### 5. React Best Practices (`react-best-practices`)
 
 来自 Vercel Engineering 的 React 和 Next.js 性能优化指南。
 
